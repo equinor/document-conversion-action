@@ -1,7 +1,2 @@
-FROM alpine:3.10
+FROM pandoc/extra:3.1
 
-COPY LICENSE README.md /
-
-COPY entrypoint.sh /entrypoint.sh
-
-ENTRYPOINT ["/entrypoint.sh"]
